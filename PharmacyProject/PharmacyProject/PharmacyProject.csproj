@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AD5593A-6AAB-4C2D-8501-A2825448EF5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PharmacyProject</RootNamespace>
+    <AssemblyName>PharmacyProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controller\ReceiptController.cs" />
+    <Compile Include="DTOs\ChartItemDTO.cs" />
+    <Compile Include="DTOs\IngridientDTO.cs" />
+    <Compile Include="DTOs\UserDTO.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Repository\IngridientRepository.cs" />
+    <Compile Include="Repository\MedicineRepository.cs" />
+    <Compile Include="Repository\RecieptRepository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Service\IngridientService.cs" />
+    <Compile Include="Service\MedicineService.cs" />
+    <Compile Include="Service\ReceiptService.cs" />
+    <Compile Include="Service\UserService.cs" />
+    <Compile Include="LogInView.xaml.cs">
+      <DependentUpon>LogInView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\AddMedicineView.xaml.cs">
+      <DependentUpon>AddMedicineView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\AddPatientView.xaml.cs">
+      <DependentUpon>AddPatientView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\DeletedMedicineListView.xaml.cs">
+      <DependentUpon>DeletedMedicineListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\DoctorsReportView.xaml.cs">
+      <DependentUpon>DoctorsReportView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\DoctorsReviewView.xaml.cs">
+      <DependentUpon>DoctorsReviewView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\MedicineAmountInputView.xaml.cs">
+      <DependentUpon>MedicineAmountInputView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\MedicinesToApproveListView.xaml.cs">
+      <DependentUpon>MedicinesToApproveListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\PatientMedicineListView.xaml.cs">
+      <DependentUpon>PatientMedicineListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\PharmacistMedicineListView.xaml.cs">
+      <DependentUpon>PharmacistMedicineListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\ReceiptListView.xaml.cs">
+      <DependentUpon>ReceiptListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\RejectedMedicineListView.xaml.cs">
+      <DependentUpon>RejectedMedicineListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\ShoppingChartView.xaml.cs">
+      <DependentUpon>ShoppingChartView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SortPatientsView.xaml.cs">
+      <DependentUpon>SortPatientsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\UsersMainView.xaml.cs">
+      <DependentUpon>UsersMainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\IngridientListView.xaml.cs">
+      <DependentUpon>IngridientListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\MedicineListView.xaml.cs">
+      <DependentUpon>MedicineListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\PatientListView.xaml.cs">
+      <DependentUpon>PatientListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SearchIngridientsByMedicinesView.xaml.cs">
+      <DependentUpon>SearchIngridientsByMedicinesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SearchIngridientsViewxaml.xaml.cs">
+      <DependentUpon>SearchIngridientsViewxaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SearchMedicinesByIngridientsView.xaml.cs">
+      <DependentUpon>SearchMedicinesByIngridientsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SearchMedicinesView.xaml.cs">
+      <DependentUpon>SearchMedicinesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SortIngridientsView.xaml.cs">
+      <DependentUpon>SortIngridientsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Veiws\SortMedicinesView.xaml.cs">
+      <DependentUpon>SortMedicinesView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controller\IngridientController.cs" />
+    <Compile Include="Controller\MedicineController.cs" />
+    <Compile Include="Controller\UserController.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="LogInView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\AddMedicineView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\AddPatientView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\DeletedMedicineListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\DoctorsReportView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\DoctorsReviewView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\MedicineAmountInputView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\MedicinesToApproveListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\PatientMedicineListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\PharmacistMedicineListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\ReceiptListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\RejectedMedicineListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\ShoppingChartView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SortPatientsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\UsersMainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\IngridientListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\MedicineListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\PatientListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SearchIngridientsByMedicinesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SearchIngridientsViewxaml.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SearchMedicinesByIngridientsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SearchMedicinesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SortIngridientsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Veiws\SortMedicinesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Ingridient.cs" />
+    <Compile Include="Model\Medicine.cs" />
+    <Compile Include="Model\Receipt.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="JSONFiles\Doctors.json" />
+    <None Include="JSONFiles\Ingridients.json" />
+    <None Include="JSONFiles\Medicines.json" />
+    <None Include="JSONFiles\Receipts.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties jsonfiles_4medicines_1json__JsonSchema="https://beaujs.com/schema.json" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

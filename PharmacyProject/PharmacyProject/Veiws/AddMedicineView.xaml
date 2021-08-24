@@ -1,0 +1,184 @@
+﻿<Window x:Class="PharmacyProject.Veiws.AddMedicineView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmacyProject.Veiws"
+        mc:Ignorable="d"
+        Title="AddMedicineView" Height="450" Width="800">
+    <Grid>
+
+        <Border Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="10" Grid.RowSpan="2" Margin="0 5" 
+                Background="Lavender">
+            <TextBlock Grid.RowSpan="2" Grid.Row="1"
+                   Text="Add New Medicine"
+                   FontSize="20" FontWeight="Light" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center">
+            </TextBlock>
+        </Border>
+        <Border  Grid.RowSpan="6" Grid.ColumnSpan="5"  Grid.Row="3" Grid.Column="1"
+                 Background="Lavender" Margin="0 5 5 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock   Grid.Row="1" Text="Id:" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="15"
+                             FontWeight="Light"/>
+
+                <TextBlock   Grid.Row="2" Text="Name:" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="15"
+                             FontWeight="Light"/>
+
+                <TextBlock   Grid.Row="3" Text="Manufacturer:" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="15"
+                             FontWeight="Light"/>
+
+                <TextBlock   Grid.Row="4" Text="Price:" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="15"
+                             FontWeight="Light"/>
+
+                <TextBlock   Grid.Row="5" Text="Amount:" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="15"
+                             FontWeight="Light"/>
+
+
+                <TextBox     Grid.Row="1" Grid.Column="1"  Margin="20 0"
+                             VerticalAlignment="Center" FontSize="14" Name="IdInput"
+                             FontWeight="Light" HorizontalContentAlignment="Left"/>
+
+                <TextBox     Grid.Row="2" Grid.Column="1"  Margin="20 0"
+                             VerticalAlignment="Center" FontSize="14" Name="NameInput"
+                             FontWeight="Light" HorizontalContentAlignment="Left"/>
+
+                <TextBox     Grid.Row="3" Grid.Column="1"  Margin="20 0"
+                             VerticalAlignment="Center" FontSize="14" Name="ManufacturerInput"
+                             FontWeight="Light" HorizontalContentAlignment="Left"/>
+
+                <TextBox     Grid.Row="4" Grid.Column="1"  Margin="20 0"
+                             VerticalAlignment="Center" FontSize="14" Name="PriceInput"
+                             FontWeight="Light" HorizontalContentAlignment="Left"/>
+
+                <TextBox     Grid.Row="5" Grid.Column="1"  Margin="20 0"
+                             VerticalAlignment="Center" FontSize="14" Name="AmountInput"
+                             FontWeight="Light" HorizontalContentAlignment="Left"/>
+                
+            </Grid>
+
+
+        </Border>
+
+        <Border  Grid.Column="6" Grid.RowSpan="6" Grid.ColumnSpan="5" 
+                 Background="Lavender" Grid.Row="3" Margin="5 5 0 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <ListBox ItemsSource="{Binding Ingridients}" Background="Transparent" Grid.RowSpan="10" Margin="20"
+                         SelectionMode="Single" Name="IngridientsListBox" Grid.Row="1">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" Background="Transparent"
+                                      FontWeight="Light" FontSize="15" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <Button Grid.Row="10" Grid.RowSpan="4" Height="25" Width="100" Click="AddMedicineButton_Click"
+                        BorderThickness="0" Margin="20 0" HorizontalAlignment="Right"
+                        Background ="LightSeaGreen" Content="Add Medicine"  Name="AddMedicineButton"
+                        FontSize="15" FontWeight="ExtraLight"/>
+                
+                <Button Grid.Row="10" Grid.RowSpan="4" Height="25" Width="35" Click="AndButton_Click"
+                        BorderThickness="0" Margin="0 0 130 0" HorizontalAlignment="Right"
+                        Background ="IndianRed" Content="AND"  Name="AndButton"
+                        FontSize="15" FontWeight="ExtraLight"/>
+
+                <TextBox Grid.Row="10" Grid.RowSpan="4" Height="25" Width="60" Text="0.0" VerticalContentAlignment="Center"
+                        BorderThickness="0" Margin="20 0" HorizontalAlignment="Left"  Name="MiligramsInput" 
+                        FontSize="15" FontWeight="UltraLight"/>
+
+            </Grid>
+        </Border>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+    </Grid>
+</Window>

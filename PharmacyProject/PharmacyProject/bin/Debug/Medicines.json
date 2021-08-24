@@ -1,0 +1,348 @@
+[
+  {
+    "Id": "8",
+    "Name": "Hidrogen",
+    "Manufacturer": "Farmakomafija",
+    "Price": 500.0,
+    "Ammount": 10,
+    "DoctorsReport": "",
+    "Ingridients": {},
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": true
+  },
+  {
+    "Id": "9",
+    "Name": "Omeprol",
+    "Manufacturer": "Farmakomafija",
+    "Price": 500.0,
+    "Ammount": 114,
+    "DoctorsReport": "",
+    "Ingridients": {},
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "11",
+    "Name": "Hidrogen",
+    "Manufacturer": "Farmakomafija",
+    "Price": 500.0,
+    "Ammount": 10,
+    "DoctorsReport": "",
+    "Ingridients": {},
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": true
+  },
+  {
+    "Id": "3",
+    "Name": "Humulin",
+    "Manufacturer": "Farmakomafija",
+    "Price": 350.0,
+    "Ammount": 88,
+    "DoctorsReport": "",
+    "Ingridients": {},
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "25",
+    "Name": "Varfarin",
+    "Manufacturer": "Farmakomafija",
+    "Price": 23.0,
+    "Ammount": 87,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Ferrum phosphoricum": 0.3,
+      "Valerijana": 1.0,
+      "Croton tiglium": 4.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "1",
+    "Name": "Febricet",
+    "Manufacturer": "Farmakomafija",
+    "Price": 200.0,
+    "Ammount": 6,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Croton tiglium": 8.0,
+      "Cina": 5.2
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "2",
+    "Name": "Kiselina",
+    "Manufacturer": "Farmakomafija",
+    "Price": 200.0,
+    "Ammount": 15,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Croton tiglium": 3.5,
+      "H20": 5.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "4",
+    "Name": "Bosentan",
+    "Manufacturer": "Farmakomafija",
+    "Price": 256.0,
+    "Ammount": 8,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Croton tiglium": 2.5,
+      "Cypripedium pubescens": 3.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "90",
+    "Name": "Hydrogen",
+    "Manufacturer": "Krasenkovic",
+    "Price": 150.0,
+    "Ammount": 20,
+    "DoctorsReport": "Invalid Medicine Name",
+    "Ingridients": {
+      "H20": 4.5,
+      "Valerijana": 0.2
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "343",
+    "Name": "Alkohol",
+    "Manufacturer": "Krasenkovic",
+    "Price": 200.0,
+    "Ammount": 18,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "H20": 3.3,
+      "Calcium": 4.2
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": true
+  },
+  {
+    "Id": "2547",
+    "Name": "Lek",
+    "Manufacturer": "Hemofarm",
+    "Price": 780.0,
+    "Ammount": 98,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Cink": 3.5,
+      "Cina": 2.0,
+      "H20": 10.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "4587",
+    "Name": "Lek2",
+    "Manufacturer": "Farmakomanija",
+    "Price": 300.0,
+    "Ammount": 20,
+    "DoctorsReport": "No milligrams for Chamomila and H2O ingridients",
+    "Ingridients": {
+      "Chamomilla": 0.0,
+      "H20": 0.0,
+      "Ferrum phosphoricum": 3.5
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "5552",
+    "Name": "Silimarin",
+    "Manufacturer": "Hemofarm",
+    "Price": 350.0,
+    "Ammount": 2,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "H20": 2.0,
+      "Calcium": 0.5,
+      "Okoubaka": 3.5,
+      "Croton tiglium": 2.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "MEDICINE",
+    "Name": "medicine",
+    "Manufacturer": "Hemofarm",
+    "Price": 100.0,
+    "Ammount": 100,
+    "DoctorsReport": "Invalid medicine ID",
+    "Ingridients": {
+      "H20": 0.0,
+      "Calcium": 0.0,
+      "Cina": 0.0
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "5548",
+    "Name": "Hidrogen",
+    "Manufacturer": "Hemofarm",
+    "Price": 250.0,
+    "Ammount": 4,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "H20": 2.0,
+      "Chamomilla": 3.2,
+      "Calcium": 1.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "251",
+    "Name": "Brufen",
+    "Manufacturer": "Hemofarm",
+    "Price": 300.0,
+    "Ammount": 8,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Stafisagria": 2.0,
+      "Colocynthis": 1.25
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "7548",
+    "Name": "Bensedin",
+    "Manufacturer": "Hemofarm",
+    "Price": 300.0,
+    "Ammount": 20,
+    "DoctorsReport": "Neispravan sastav leka",
+    "Ingridients": {
+      "Calcium": 2.0,
+      "Croton tiglium": 0.5,
+      "Okoubaka": 1.3
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "Lilac",
+    "Name": "Parafridin",
+    "Manufacturer": "Hemofarm",
+    "Price": 200.0,
+    "Ammount": 100,
+    "DoctorsReport": "Invalid Medicine Id",
+    "Ingridients": {
+      "H20": 2.3,
+      "Ferrum phosphoricum": 1.2,
+      "Valerijana": 3.5
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "4568",
+    "Name": "Lekic",
+    "Manufacturer": "Farmakomafija",
+    "Price": 520.0,
+    "Ammount": 10,
+    "DoctorsReport": "Invalid Medicine name",
+    "Ingridients": {
+      "H20": 2.0,
+      "Chamomilla": 2.3,
+      "Calcium": 3.2
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "1123",
+    "Name": "Paracetamol",
+    "Manufacturer": "Hemofarm",
+    "Price": 120.0,
+    "Ammount": 30,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Colocynthis": 1.3,
+      "Croton tiglium": 2.0
+    },
+    "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "2144",
+    "Name": "Diklofenak",
+    "Manufacturer": "Hemofarm",
+    "Price": 120.0,
+    "Ammount": 50,
+    "DoctorsReport": "Medicine has new price",
+    "Ingridients": {
+      "Calcium": 22.3,
+      "Chamomilla": 1.5,
+      "Okoubaka": 3.2
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": false
+  },
+  {
+    "Id": "3214",
+    "Name": "Bromazepam",
+    "Manufacturer": "Hemofarm",
+    "Price": 150.0,
+    "Ammount": 30,
+    "DoctorsReport": "Invalid Medicine Price",
+    "Ingridients": {
+      "Colocynthis": 0.5,
+      "Cink": 2.3,
+      "H20": 2.2
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": true
+  },
+  {
+    "Id": "4523",
+    "Name": "Lekic2",
+    "Manufacturer": "Hemofarm",
+    "Price": 280.0,
+    "Ammount": 10,
+    "DoctorsReport": "Rejected for no reason",
+    "Ingridients": {
+      "Calcium": 0.2,
+      "Stafisagria": 0.1,
+      "Valerijana": 0.3
+    },
+    "IsAccepted": false,
+    "IsRejected": true,
+    "IsDeleted": false
+  }
+]

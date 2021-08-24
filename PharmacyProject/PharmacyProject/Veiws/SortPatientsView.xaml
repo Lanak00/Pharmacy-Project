@@ -1,0 +1,75 @@
+﻿<Window x:Class="PharmacyProject.Veiws.SortPatientsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmacyProject.Veiws"
+        mc:Ignorable="d"
+        Title="SortPatientsView" Height="450" Width="400">
+    <Grid>
+
+        <Border Grid.RowSpan="2" Grid.Row="1" Grid.Column="1" Background= "Lavender" Margin="5">
+            <TextBlock Grid.RowSpan="2" Grid.Row="1"
+                   Text="Choose parameter to sort Patients:"
+                   FontSize="20" FontWeight="Light" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center">
+            </TextBlock>
+        </Border>
+
+        <Border Grid.RowSpan="6" Grid.Row="3" Grid.Column="1" Background="Lavender" Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Grid.Row="1" Content="First Name" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="16" Name="FirstNameButton"
+                             VerticalContentAlignment="Center" FontWeight="Light"/>
+                <RadioButton Grid.Row="2" Content="Last Name" Margin="20 0"
+                             VerticalAlignment="Center" FontSize="16" Name="LastNameButton"
+                             VerticalContentAlignment="Center" FontWeight="Light"/>
+                
+
+                <Button Grid.Row="4" Grid.RowSpan="2" Height="30" Width="60"
+                        BorderThickness="0" Margin="20" HorizontalAlignment="Left"
+                        Background ="LightGray" Content="Skip" Name="SkipButton" Click="SkipButton_Click"
+                        FontSize="15" FontWeight="ExtraLight"/>
+
+                <Button Grid.Row="4" Grid.RowSpan="2" Height="30" Width="60"
+                        BorderThickness="0" Margin="20" HorizontalAlignment="Right"
+                        Background ="LightSeaGreen" Content="Confirm" 
+                        FontSize="15" FontWeight="ExtraLight" Click="Confirm_Click"/>
+
+            </Grid>
+        </Border>
+
+
+
+
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MaxWidth="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition MaxWidth="30"/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Window>

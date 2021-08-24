@@ -1,0 +1,479 @@
+[
+  {
+    "Id": "1",
+    "Email": "1",
+    "Password": "1",
+    "FirstName": "Dragan",
+    "LastName": "Djordjevic",
+    "PhoneNumber": "0653242123",
+    "Role": "DOCTOR",
+    "OwnedMedicineCounter": {},
+    "Receipts": []
+  },
+  {
+    "Id": "2",
+    "Email": "2",
+    "Password": "2",
+    "FirstName": "Nevena",
+    "LastName": "Slavkovic",
+    "PhoneNumber": "0623446236",
+    "Role": "PHARMACIST",
+    "OwnedMedicineCounter": {},
+    "Receipts": []
+  },
+  {
+    "Id": "3",
+    "Email": "3",
+    "Password": "3",
+    "FirstName": "Nikola",
+    "LastName": "Savic",
+    "PhoneNumber": "0645702335",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Febricet": 11,
+      "Humulin": 9,
+      "Varfarin": 8,
+      "Bosentan": 10,
+      "Kiselina": 1
+    },
+    "Receipts": [
+      {
+        "Id": 117,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T10:10:20.7293635+02:00",
+        "MedicineWithAmmount": {
+          "Febricet": 2
+        },
+        "TotalPrice": 400.0
+      },
+      {
+        "Id": 118,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T10:11:57.329083+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 1
+        },
+        "TotalPrice": 350.0
+      },
+      {
+        "Id": 119,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T10:13:18.1686293+02:00",
+        "MedicineWithAmmount": {
+          "Febricet": 7
+        },
+        "TotalPrice": 1400.0
+      },
+      {
+        "Id": 122,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T10:17:32.6868057+02:00",
+        "MedicineWithAmmount": {
+          "Varfarin": 3
+        },
+        "TotalPrice": 69.0
+      },
+      {
+        "Id": 129,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T10:34:00.1207306+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      },
+      {
+        "Id": 132,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T10:38:13.0237257+02:00",
+        "MedicineWithAmmount": {
+          "Febricet": 2
+        },
+        "TotalPrice": 400.0
+      },
+      {
+        "Id": 133,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:16:38.5738702+02:00",
+        "MedicineWithAmmount": {
+          "Bosentan": 10
+        },
+        "TotalPrice": 2560.0
+      },
+      {
+        "Id": 134,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:16:50.6935089+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 2
+        },
+        "TotalPrice": 700.0
+      },
+      {
+        "Id": 135,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:17:39.2968876+02:00",
+        "MedicineWithAmmount": {
+          "Kiselina": 1
+        },
+        "TotalPrice": 200.0
+      },
+      {
+        "Id": 136,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:24:39.4775317+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      },
+      {
+        "Id": 146,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T17:18:37.4076524+02:00",
+        "MedicineWithAmmount": {
+          "Varfarin": 5
+        },
+        "TotalPrice": 115.0
+      }
+    ]
+  },
+  {
+    "Id": "120719237080",
+    "Email": "milan@gmail.com",
+    "Password": "milan",
+    "FirstName": "Milan",
+    "LastName": "Dragosavac",
+    "PhoneNumber": "0632355478",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Febricet": 7
+    },
+    "Receipts": [
+      {
+        "Id": 149,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:28:21.5063747+02:00",
+        "MedicineWithAmmount": {
+          "Febricet": 7
+        },
+        "TotalPrice": 1400.0
+      }
+    ]
+  },
+  {
+    "Id": "12432154235",
+    "Email": "nikolaakv@gmail.com",
+    "Password": "nikola",
+    "FirstName": "Nikola",
+    "LastName": "Savic",
+    "PhoneNumber": "0645346521",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Febricet": 4
+    },
+    "Receipts": [
+      {
+        "Id": 150,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:48:08.9277756+02:00",
+        "MedicineWithAmmount": {
+          "Febricet": 4
+        },
+        "TotalPrice": 800.0
+      }
+    ]
+  },
+  {
+    "Id": "5235235234",
+    "Email": "milos@gmail.com",
+    "Password": "milos",
+    "FirstName": "Milos",
+    "LastName": "Novakovic",
+    "PhoneNumber": "0653453632",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Varfarin": 7
+    },
+    "Receipts": [
+      {
+        "Id": 137,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:32:31.9136591+02:00",
+        "MedicineWithAmmount": {
+          "Varfarin": 7
+        },
+        "TotalPrice": 161.0
+      }
+    ]
+  },
+  {
+    "Id": "1412421",
+    "Email": "pero@gmail.com",
+    "Password": "pero123",
+    "FirstName": "Petar",
+    "LastName": "Bogdanovic",
+    "PhoneNumber": "065434632",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Bosentan": 7
+    },
+    "Receipts": [
+      {
+        "Id": 147,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:22:04.0418113+02:00",
+        "MedicineWithAmmount": {
+          "Bosentan": 7
+        },
+        "TotalPrice": 1792.0
+      }
+    ]
+  },
+  {
+    "Id": "23124314",
+    "Email": "maki@gmail.com",
+    "Password": "maki123",
+    "FirstName": "Marko",
+    "LastName": "Savic",
+    "PhoneNumber": "0654523525",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {},
+    "Receipts": [
+      {
+        "Id": 36,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:49:28.1798173+02:00",
+        "MedicineWithAmmount": {
+          "Hidrogen": 10,
+          "eqwe": 1231
+        },
+        "TotalPrice": 400151.0
+      },
+      {
+        "Id": 37,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:49:49.2553481+02:00",
+        "MedicineWithAmmount": {
+          "dsfds": 23
+        },
+        "TotalPrice": 9729.0
+      },
+      {
+        "Id": 38,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:49:56.96756+02:00",
+        "MedicineWithAmmount": {
+          "dsfds": 23,
+          "gsfs": 5
+        },
+        "TotalPrice": 10229.0
+      },
+      {
+        "Id": 39,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:50:52.1007553+02:00",
+        "MedicineWithAmmount": {
+          "dsfds": 23
+        },
+        "TotalPrice": 9729.0
+      }
+    ]
+  },
+  {
+    "Id": "42414",
+    "Email": "milenko",
+    "Password": "milenko",
+    "FirstName": "Milenko",
+    "LastName": "Milenkovic",
+    "PhoneNumber": "0645433251",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Varfarin": 4,
+      "Humulin": 3
+    },
+    "Receipts": [
+      {
+        "Id": 138,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:35:52.5810693+02:00",
+        "MedicineWithAmmount": {
+          "Varfarin": 4
+        },
+        "TotalPrice": 92.0
+      },
+      {
+        "Id": 139,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:36:36.0526602+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      }
+    ]
+  },
+  {
+    "Id": "4141255121",
+    "Email": "milenko@gmail.com",
+    "Password": "mile",
+    "FirstName": "Milenko",
+    "LastName": "Smiljanic",
+    "PhoneNumber": "065235523",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Humulin": 7
+    },
+    "Receipts": [
+      {
+        "Id": 140,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:37:51.4630967+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 7
+        },
+        "TotalPrice": 2450.0
+      }
+    ]
+  },
+  {
+    "Id": "12431245124",
+    "Email": "nemanja@gmail.com",
+    "Password": "neca123",
+    "FirstName": "Nemanja",
+    "LastName": "Markovic",
+    "PhoneNumber": "06523235574",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Febricet": 1,
+      "Humulin": 18
+    },
+    "Receipts": [
+      {
+        "Id": 80,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T02:32:18.7895632+02:00",
+        "MedicineWithAmmount": {
+          "Febricet": 1
+        },
+        "TotalPrice": 200.0
+      },
+      {
+        "Id": 141,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:01:37.4569964+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 6
+        },
+        "TotalPrice": 2100.0
+      },
+      {
+        "Id": 142,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:02:51.4071047+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 4
+        },
+        "TotalPrice": 1400.0
+      },
+      {
+        "Id": 143,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:06:51.8793584+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      },
+      {
+        "Id": 144,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:09:43.0083943+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 2
+        },
+        "TotalPrice": 700.0
+      },
+      {
+        "Id": 145,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:12:48.0889814+02:00",
+        "MedicineWithAmmount": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      }
+    ]
+  },
+  {
+    "Id": "25235263262",
+    "Email": "srecko@gmail.com",
+    "Password": "srecko123",
+    "FirstName": "Srecko",
+    "LastName": "Sojic",
+    "PhoneNumber": "0621243521",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {},
+    "Receipts": []
+  },
+  {
+    "Id": "52135235141",
+    "Email": "marko@gmail.com",
+    "Password": "puzovic",
+    "FirstName": "Marko",
+    "LastName": "Puzovic",
+    "PhoneNumber": "0653425125",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Varfarin": 7
+    },
+    "Receipts": [
+      {
+        "Id": 148,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:25:18.5460594+02:00",
+        "MedicineWithAmmount": {
+          "Varfarin": 7
+        },
+        "TotalPrice": 161.0
+      }
+    ]
+  },
+  {
+    "Id": "152421521515",
+    "Email": "predrag@gmail.com",
+    "Password": "pedja",
+    "FirstName": "Predrag",
+    "LastName": "Stefanovic",
+    "PhoneNumber": "0643463462",
+    "Role": "PATIENT",
+    "OwnedMedicineCounter": {
+      "Varfarin": 2,
+      "Bosentan": 3,
+      "Alkohol": 2
+    },
+    "Receipts": [
+      {
+        "Id": 151,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T21:58:06.714188+02:00",
+        "MedicineWithAmmount": {
+          "Varfarin": 2
+        },
+        "TotalPrice": 46.0
+      },
+      {
+        "Id": 152,
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T21:58:21.6212693+02:00",
+        "MedicineWithAmmount": {
+          "Bosentan": 3,
+          "Alkohol": 2
+        },
+        "TotalPrice": 1168.0
+      }
+    ]
+  }
+]
+
+  

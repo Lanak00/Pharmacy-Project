@@ -1,0 +1,140 @@
+﻿<Window x:Class="PharmacyProject.Veiws.SearchMedicinesView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmacyProject.Veiws"
+        mc:Ignorable="d"
+        Title="SearchMedicinesView" Height="450" Width="400">
+    <Grid>
+
+
+
+        <Border Grid.RowSpan="2" Grid.Row="1" Grid.Column="1" Background= "Lavender" Margin="5">
+            <TextBlock Grid.RowSpan="2" Grid.Row="1"
+                   Text="Choose parameter to search Medicines:"
+                   FontSize="19" FontWeight="Light" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center">
+            </TextBlock>
+        </Border>
+
+        <Border Grid.RowSpan="6" Grid.Row="3" Grid.Column="1" Background="Lavender" Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="27*"/>
+                    <RowDefinition Height="27*"/>
+                    <RowDefinition Height="27*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="27*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="34*"/>
+                    <RowDefinition Height="21*"/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Grid.Row="1" Content="Id" Margin="20,2.6,20,3.6"
+                             VerticalAlignment="Center" FontSize="16" Name="IdButton"
+                             VerticalContentAlignment="Center" FontWeight="Light" Height="21"/>
+                <RadioButton Grid.Row="2" Content="Name" Margin="20,3.4,20,3.8"
+                             VerticalAlignment="Center" FontSize="16" Name="NameButton"
+                             VerticalContentAlignment="Center" FontWeight="Light" Height="20"/>
+                <RadioButton Grid.Row="3" Content="Manufacturer" Margin="20,2.2,20,3.2"
+                             VerticalAlignment="Center" FontSize="16" Name="ManufacturerButton"
+                             VerticalContentAlignment="Center" FontWeight="Light" Height="21"/>
+                <RadioButton Grid.Row="4" Content="Price Range" Margin="20,2.8,20,3.4"
+                             VerticalAlignment="Center" FontSize="16" Name="PriceRangeButton"
+                             VerticalContentAlignment="Center" FontWeight="Light" Height="21"/>
+                <RadioButton Grid.Row="5" Content="Amount left in Storage" Margin="20,2.6,20,2.8"
+                             VerticalAlignment="Center" FontSize="16" Name="AmountButton"
+                             VerticalContentAlignment="Center" FontWeight="Light" Height="21"/>
+                <RadioButton Grid.Row="6" Content="Ingridients" Margin="20,2.2,20,2.4"
+                             VerticalAlignment="Center" FontSize="16" Name="IngridientsButton"
+                             VerticalContentAlignment="Center" FontWeight="Light" Height="21"/>
+
+                <Button Grid.Row="7" Grid.RowSpan="2" Width="60"
+                        BorderThickness="0" Margin="20,19.6,0,4.6" HorizontalAlignment="Left"
+                        Background ="LightGray" Content="Cancel" Name="CancelButton"
+                        FontSize="15" FontWeight="ExtraLight" Click="CancelButton_Click"/>
+
+                <Button Grid.Row="7" Grid.RowSpan="2" Width="60"
+                        BorderThickness="0" Margin="0,19.8,20,4.6" HorizontalAlignment="Right"
+                        Background ="LightSeaGreen" Content="Confirm" Name="ConfirmButton"
+                        FontSize="15" FontWeight="ExtraLight" Click="ConfirmButton_Click" />
+
+                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBox  Name="IdInput" Width="150" VerticalContentAlignment="Center"
+                 Height="30"  Visibility="Hidden"/>
+                    <Button  Name="SearchByIdButton" Width="60" VerticalContentAlignment="Center"
+                 Height="30" HorizontalAlignment="Right" Visibility="Hidden"
+                Margin="10" Content="Search" Background="LightSeaGreen" Click="SearchByIdButton_Click"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBox  Name="NameInput" Width="150" VerticalContentAlignment="Center"
+                 Height="30"  Visibility="Hidden"/>
+                    <Button  Name="SearchByNameButton" Width="60" VerticalContentAlignment="Center"
+                 Height="30" HorizontalAlignment="Right" Visibility="Hidden"
+                Margin="10" Content="Search" Background="LightSeaGreen" Click="SearchByNameButton_Click"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBox  Name="ManufacturerInput" Width="150" VerticalContentAlignment="Center"
+                 Height="30"  Visibility="Hidden"/>
+                    <Button  Name="SearchByManufacturerButton" Width="60" VerticalContentAlignment="Center"
+                 Height="30" HorizontalAlignment="Right" Visibility="Hidden"
+                Margin="10" Content="Search" Background="LightSeaGreen" Click="SearchByManufacturerButton_Click"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBox  Name="PriceRangeFromInput" Width="70" VerticalContentAlignment="Center"
+                 Height="30"  Visibility="Hidden"/>
+                    <TextBlock Name ="DashBlock" Text="-" Width="10" VerticalAlignment="Center"
+                               Background="Transparent" FontSize="25" Visibility="Hidden"/>
+                    <TextBox  Name="PriceRangeToInput" Width="70" VerticalContentAlignment="Center"
+                 Height="30"  Visibility="Hidden"/>
+                    <Button  Name="SearchByPriceRangeButton" Width="60" VerticalContentAlignment="Center"
+                 Height="30" HorizontalAlignment="Right" Visibility="Hidden"
+                Margin="10" Content="Search" Background="LightSeaGreen" Click="SearchByPriceRangeButton_Click"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <TextBox  Name="AmountInput" Width="150" VerticalContentAlignment="Center"
+                 Height="30"  Visibility="Hidden"/>
+                    <Button  Name="SearchByAmountButton" Width="60" VerticalContentAlignment="Center"
+                 Height="30" HorizontalAlignment="Right" Visibility="Hidden"
+                Margin="10" Content="Search" Background="LightSeaGreen" Click="SearchByAmountButton_Click"/>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+
+
+
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MaxWidth="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition MaxWidth="30"/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Window>

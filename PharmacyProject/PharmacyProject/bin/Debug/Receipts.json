@@ -1,0 +1,321 @@
+[
+  {
+    "Id": "1",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T15:19:00",
+    "Items": {
+      "dsfds": 23
+    },
+    "TotalPrice": 9729.0
+  },
+  {
+    "Id": "2",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T15:19:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "3",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T15:20:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "4",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T15:20:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "5",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T16:20:00",
+    "Items": null,
+    "TotalPrice": 0.0
+  },
+  {
+    "Id": "6",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T16:28:00",
+    "Items": {
+      "Hidrogen": 10,
+      "dsfds": 23
+    },
+    "TotalPrice": 14729.0
+  },
+  {
+    "Id": "7",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T16:32:00",
+    "Items": {
+      "Hidrogen": 10,
+      "dsfds": 23
+    },
+    "TotalPrice": 14729.0
+  },
+  {
+    "Id": "8",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T16:41:00",
+    "Items": {
+      "Insulin": 20,
+      "dsgsdg": 21,
+      "eqwe": 1231,
+      "Hidrogen": 10
+    },
+    "TotalPrice": 414034.0
+  },
+  {
+    "Id": "9",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-05-31T18:30:00",
+    "Items": {
+      "dsfds": 23,
+      "Insulin": 20
+    },
+    "TotalPrice": 14729.0
+  },
+  {
+    "Id": "10",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-04T18:31:00",
+    "Items": {
+      "Hidrogen": 10
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "11",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T00:05:00",
+    "Items": {
+      "Omeprol": 10
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "12",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T00:08:00",
+    "Items": {
+      "dsgsdg": 21
+    },
+    "TotalPrice": 8883.0
+  },
+  {
+    "Id": "13",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T00:09:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "14",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T08:32:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "15",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:29:00",
+    "Items": {
+      "dasdasd": 421
+    },
+    "TotalPrice": 17682.0
+  },
+  {
+    "Id": "16",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:29:00",
+    "Items": {
+      "gsfs": 5
+    },
+    "TotalPrice": 500.0
+  },
+  {
+    "Id": "17",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:32:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "18",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:33:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "19",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:34:00",
+    "Items": {
+      "eqwe": 1231
+    },
+    "TotalPrice": 395151.0
+  },
+  {
+    "Id": "20",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:35:00",
+    "Items": {
+      "Hidrogen": 10
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "21",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:39:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "22",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T10:39:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "23",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T11:47:00",
+    "Items": {
+      "eqwe": 1231
+    },
+    "TotalPrice": 395151.0
+  },
+  {
+    "Id": "24",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T11:48:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "25",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T11:51:00",
+    "Items": {
+      "Omeprol": 10
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "26",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T13:33:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "27",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T13:33:00",
+    "Items": {
+      "werwetw": 23
+    },
+    "TotalPrice": 782.0
+  },
+  {
+    "Id": "28",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T13:34:00",
+    "Items": {
+      "Omeprol": 10
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "29",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T13:40:00",
+    "Items": {
+      "eqwe": 1231
+    },
+    "TotalPrice": 395151.0
+  },
+  {
+    "Id": "30",
+    "Pharmacist": "Petar Petrovic",
+    "DateTime": "2021-06-11T13:40:00",
+    "Items": {
+      "Insulin": 20
+    },
+    "TotalPrice": 5000.0
+  },
+  {
+    "Id": "31",
+    "Pharmacist": "Marko Markovic",
+    "DateTime": "8/15/2021 10:28:31 AM",
+    "Items": {
+      "Varfarin": 5,
+      "Silimarin": 3
+    },
+    "TotalPrice": 1165.0
+  },
+  {
+    "Id": "32",
+    "Pharmacist": "Marko Markovic",
+    "DateTime": "8/17/2021 11:17:43 PM",
+    "Items": {
+      "Lek": 3,
+      "Omeprol": 1,
+      "Silimarin": 5,
+      "Brufen": 2,
+      "Humulin": 3
+    },
+    "TotalPrice": 6240.0
+  },
+  {
+    "Id": "33",
+    "Pharmacist": "Marko Markovic",
+    "DateTime": "8/17/2021 11:19:04 PM",
+    "Items": {
+      "Kiselina": 3,
+      "Humulin": 1
+    },
+    "TotalPrice": 950.0
+  },
+  {
+    "Id": "34",
+    "Pharmacist": "Marko Markovic",
+    "DateTime": "8/18/2021 11:59:56 AM",
+    "Items": {
+      "Omeprol": 2,
+      "Varfarin": 3,
+      "Bosentan": 2,
+      "Hidrogen": 1
+    },
+    "TotalPrice": 1831.0
+  }
+]

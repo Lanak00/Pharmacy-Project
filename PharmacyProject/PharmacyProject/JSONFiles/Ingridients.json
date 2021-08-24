@@ -1,0 +1,62 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Cink",
+    "Description": "Mineral"
+  },
+  {
+    "Id": 2,
+    "Name": "H20",
+    "Description": "Voda"
+  },
+  {
+    "Id": 3,
+    "Name": "Cina",
+    "Description": "smiruje grčeve u stomaku različitog porekla"
+  },
+  {
+    "Id": 4,
+    "Name": "Calcium",
+    "Description": "pomaže resorpciju kalcijuma iz hrane i bolje iskorišćenje"
+  },
+  {
+    "Id": 5,
+    "Name": "Chamomilla",
+    "Description": "dejstvo na grčeve izazvane gasovima"
+  },
+  {
+    "Id": 6,
+    "Name": "Colocynthis",
+    "Description": "pomaže kod kolika koje prolaze uz zagrevanje stomaka"
+  },
+  {
+    "Id": 7,
+    "Name": "Cypripedium pubescens",
+    "Description": "za učvršćenje noćnog sna zdrave dece koja su dnevno aktivna."
+  },
+  {
+    "Id": 8,
+    "Name": "Croton tiglium",
+    "Description": "smiruje nekontrolisane napade dijareje koja je vodena"
+  },
+  {
+    "Id": 9,
+    "Name": "Ferrum phosphoricum",
+    "Description": "Odličan lek kod početka upalnih procesa na sluznici"
+  },
+  {
+    "Id": 10,
+    "Name": "Okoubaka",
+    "Description": "Biljni lek za prevenciju putničke dijareje"
+  },
+  {
+    "Id": 11,
+    "Name": "Stafisagria",
+    "Description": "Utiče na popravljanje ponašanja dece koja su besna"
+  },
+  {
+    "Id": 12,
+    "Name": "Valerijana",
+    "Description": "umiruje decu koja ne mogu da se zaustave i stalno su u pokretu"
+  }
+]

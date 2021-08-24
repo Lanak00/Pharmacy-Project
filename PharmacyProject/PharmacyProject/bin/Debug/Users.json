@@ -1,0 +1,508 @@
+[
+  {
+    "Id": "1",
+    "Email": "1",
+    "Password": "1",
+    "FirstName": "Dragan",
+    "LastName": "Djordjevic",
+    "PhoneNumber": "0653242123",
+    "Role": "DOCTOR",
+    "ShoppingChart": {},
+    "Receipts": []
+  },
+  {
+    "Id": "2",
+    "Email": "2",
+    "Password": "2",
+    "FirstName": "Nevena",
+    "LastName": "Slavkovic",
+    "PhoneNumber": "0623446236",
+    "Role": "PHARMACIST",
+    "ShoppingChart": {},
+    "Receipts": []
+  },
+  {
+    "Id": "3",
+    "Email": "3",
+    "Password": "3",
+    "FirstName": "Nikola",
+    "LastName": "Savic",
+    "PhoneNumber": "0645702335",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "117",
+        "Pharmacist": "Pedja",
+        "DateTime": "27.3.2020. 18:25",
+        "Items": {
+          "Febricet": 2
+        },
+        "TotalPrice": 400.0
+      },
+      {
+        "Id": "118",
+        "Pharmacist": "Pedja",
+        "DateTime": "20.4.2020. 18:00",
+        "Items": {
+          "Humulin": 1
+        },
+        "TotalPrice": 350.0
+      },
+      {
+        "Id": "119",
+        "Pharmacist": "Pedja",
+        "DateTime": "7.3.2021. 13:05",
+        "Items": {
+          "Febricet": 7
+        },
+        "TotalPrice": 1400.0
+      },
+      {
+        "Id": "122",
+        "Pharmacist": "Pedja",
+        "DateTime": "7.2.2020. 09:00",
+        "Items": {
+          "Varfarin": 3
+        },
+        "TotalPrice": 69.0
+      },
+      {
+        "Id": "129",
+        "Pharmacist": "Pedja",
+        "DateTime": "27.3.2020. 18:25",
+        "Items": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      },
+      {
+        "Id": "132",
+        "Pharmacist": "Pedja",
+        "DateTime": "7.8.2020. 11:10",
+        "Items": {
+          "Febricet": 2
+        },
+        "TotalPrice": 400.0
+      },
+      {
+        "Id": "133",
+        "Pharmacist": "Pedja",
+        "DateTime": "27.3.2020. 18:25",
+        "Items": {
+          "Bosentan": 10
+        },
+        "TotalPrice": 2560.0
+      },
+      {
+        "Id": "134",
+        "Pharmacist": "Pedja",
+        "DateTime": "7.7.2021. 18:00",
+        "Items": {
+          "Humulin": 2
+        },
+        "TotalPrice": 700.0
+      },
+      {
+        "Id": "135",
+        "Pharmacist": "Pedja",
+        "DateTime": "2.3.2021. 12:25",
+        "Items": {
+          "Kiselina": 1
+        },
+        "TotalPrice": 200.0
+      },
+      {
+        "Id": "136",
+        "Pharmacist": "Pedja",
+        "DateTime": "27.3.2020. 18:25",
+        "Items": {
+          "Humulin": 3
+        },
+        "TotalPrice": 1050.0
+      },
+      {
+        "Id": "31",
+        "Pharmacist": "Marko Markovic",
+        "DateTime": "8/15/2021 10:28:31 AM",
+        "Items": {
+          "Varfarin": 5,
+          "Silimarin": 3
+        },
+        "TotalPrice": 1165.0
+      },
+      {
+        "Id": "32",
+        "Pharmacist": "Marko Markovic",
+        "DateTime": "8/17/2021 11:17:43 PM",
+        "Items": {
+          "Lek": 3,
+          "Omeprol": 1,
+          "Silimarin": 5,
+          "Brufen": 2,
+          "Humulin": 3
+        },
+        "TotalPrice": 6240.0
+      },
+      {
+        "Id": "33",
+        "Pharmacist": "Marko Markovic",
+        "DateTime": "8/17/2021 11:19:04 PM",
+        "Items": {
+          "Kiselina": 3,
+          "Humulin": 1
+        },
+        "TotalPrice": 950.0
+      },
+      {
+        "Id": "34",
+        "Pharmacist": "Marko Markovic",
+        "DateTime": "8/18/2021 11:59:56 AM",
+        "Items": {
+          "Omeprol": 2,
+          "Varfarin": 3,
+          "Bosentan": 2,
+          "Hidrogen": 1
+        },
+        "TotalPrice": 1831.0
+      }
+    ]
+  },
+  {
+    "Id": "120719237080",
+    "Email": "milan@gmail.com",
+    "Password": "milan",
+    "FirstName": "Milan",
+    "LastName": "Dragosavac",
+    "PhoneNumber": "0632355478",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "149",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:28:21.5063747+02:00",
+        "Items": null,
+        "TotalPrice": 1400.0
+      }
+    ]
+  },
+  {
+    "Id": "12432154235",
+    "Email": "nikolaakv@gmail.com",
+    "Password": "nikola",
+    "FirstName": "Nikola",
+    "LastName": "Savic",
+    "PhoneNumber": "0645346521",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "150",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:48:08.9277756+02:00",
+        "Items": null,
+        "TotalPrice": 800.0
+      }
+    ]
+  },
+  {
+    "Id": "5235235234",
+    "Email": "milos@gmail.com",
+    "Password": "milos",
+    "FirstName": "Milos",
+    "LastName": "Novakovic",
+    "PhoneNumber": "0653453632",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "137",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:32:31.9136591+02:00",
+        "Items": null,
+        "TotalPrice": 161.0
+      }
+    ]
+  },
+  {
+    "Id": "1412421",
+    "Email": "pero@gmail.com",
+    "Password": "pero123",
+    "FirstName": "Petar",
+    "LastName": "Bogdanovic",
+    "PhoneNumber": "065434632",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "147",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:22:04.0418113+02:00",
+        "Items": null,
+        "TotalPrice": 1792.0
+      }
+    ]
+  },
+  {
+    "Id": "23124314",
+    "Email": "maki@gmail.com",
+    "Password": "maki123",
+    "FirstName": "Marko",
+    "LastName": "Savic",
+    "PhoneNumber": "0654523525",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "36",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:49:28.1798173+02:00",
+        "Items": null,
+        "TotalPrice": 400151.0
+      },
+      {
+        "Id": "37",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:49:49.2553481+02:00",
+        "Items": null,
+        "TotalPrice": 9729.0
+      },
+      {
+        "Id": "38",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:49:56.96756+02:00",
+        "Items": null,
+        "TotalPrice": 10229.0
+      },
+      {
+        "Id": "39",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-18T00:50:52.1007553+02:00",
+        "Items": null,
+        "TotalPrice": 9729.0
+      }
+    ]
+  },
+  {
+    "Id": "42414",
+    "Email": "milenko",
+    "Password": "milenko",
+    "FirstName": "Milenko",
+    "LastName": "Milenkovic",
+    "PhoneNumber": "0645433251",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "138",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:35:52.5810693+02:00",
+        "Items": null,
+        "TotalPrice": 92.0
+      },
+      {
+        "Id": "139",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:36:36.0526602+02:00",
+        "Items": null,
+        "TotalPrice": 1050.0
+      }
+    ]
+  },
+  {
+    "Id": "4141255121",
+    "Email": "milenko@gmail.com",
+    "Password": "mile",
+    "FirstName": "Milenko",
+    "LastName": "Smiljanic",
+    "PhoneNumber": "065235523",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "140",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T11:37:51.4630967+02:00",
+        "Items": null,
+        "TotalPrice": 2450.0
+      }
+    ]
+  },
+  {
+    "Id": "12431245124",
+    "Email": "nemanja@gmail.com",
+    "Password": "neca123",
+    "FirstName": "Nemanja",
+    "LastName": "Markovic",
+    "PhoneNumber": "06523235574",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "80",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T02:32:18.7895632+02:00",
+        "Items": null,
+        "TotalPrice": 200.0
+      },
+      {
+        "Id": "141",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:01:37.4569964+02:00",
+        "Items": null,
+        "TotalPrice": 2100.0
+      },
+      {
+        "Id": "142",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:02:51.4071047+02:00",
+        "Items": null,
+        "TotalPrice": 1400.0
+      },
+      {
+        "Id": "143",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:06:51.8793584+02:00",
+        "Items": null,
+        "TotalPrice": 1050.0
+      },
+      {
+        "Id": "144",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:09:43.0083943+02:00",
+        "Items": null,
+        "TotalPrice": 700.0
+      },
+      {
+        "Id": "145",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T12:12:48.0889814+02:00",
+        "Items": null,
+        "TotalPrice": 1050.0
+      }
+    ]
+  },
+  {
+    "Id": "25235263262",
+    "Email": "srecko@gmail.com",
+    "Password": "srecko123",
+    "FirstName": "Srecko",
+    "LastName": "Sojic",
+    "PhoneNumber": "0621243521",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": []
+  },
+  {
+    "Id": "52135235141",
+    "Email": "marko@gmail.com",
+    "Password": "puzovic",
+    "FirstName": "Marko",
+    "LastName": "Puzovic",
+    "PhoneNumber": "0653425125",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "148",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T18:25:18.5460594+02:00",
+        "Items": null,
+        "TotalPrice": 161.0
+      }
+    ]
+  },
+  {
+    "Id": "152421521515",
+    "Email": "predrag@gmail.com",
+    "Password": "pedja",
+    "FirstName": "Predrag",
+    "LastName": "Stefanovic",
+    "PhoneNumber": "0643463462",
+    "Role": "PATIENT",
+    "ShoppingChart": {},
+    "Receipts": [
+      {
+        "Id": "151",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T21:58:06.714188+02:00",
+        "Items": null,
+        "TotalPrice": 46.0
+      },
+      {
+        "Id": "152",
+        "Pharmacist": "Pedja",
+        "DateTime": "2021-06-23T21:58:21.6212693+02:00",
+        "Items": null,
+        "TotalPrice": 1168.0
+      }
+    ]
+  },
+  {
+    "Id": "2501000805021",
+    "Email": "ana@gmail.com",
+    "Password": "pass123",
+    "FirstName": "Ana",
+    "LastName": "Anic",
+    "PhoneNumber": "0640845623",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  },
+  {
+    "Id": "250100080502",
+    "Email": "mail@gmail.com",
+    "Password": "123",
+    "FirstName": "Bla",
+    "LastName": "Bla",
+    "PhoneNumber": "0254168532",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  },
+  {
+    "Id": "2501000",
+    "Email": "ba@gmail.com",
+    "Password": "pass123",
+    "FirstName": "Aaaa",
+    "LastName": "Baaa",
+    "PhoneNumber": "0648610494",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  },
+  {
+    "Id": "2102993805032",
+    "Email": "filip@gmail.com",
+    "Password": "pass123",
+    "FirstName": "Filip",
+    "LastName": "Filipovic",
+    "PhoneNumber": "0645874562",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  },
+  {
+    "Id": "1502997803125",
+    "Email": "janko@gmail.com",
+    "Password": "pass123",
+    "FirstName": "Anko",
+    "LastName": "Ranko",
+    "PhoneNumber": "0658741432",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  },
+  {
+    "Id": "2501993658741",
+    "Email": "veceivan@gmail.com",
+    "Password": "vecesa456",
+    "FirstName": "Ivan",
+    "LastName": "Ivanovic",
+    "PhoneNumber": "0621352465",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  }
+]
