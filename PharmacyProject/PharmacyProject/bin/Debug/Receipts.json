@@ -317,5 +317,16 @@
       "Hidrogen": 1
     },
     "TotalPrice": 1831.0
+  },
+  {
+    "Id": "35",
+    "Pharmacist": "Marko Markovic",
+    "DateTime": "8/30/2021 9:01:53 PM",
+    "Items": {
+      "Alkohol": 5,
+      "Andol": 3,
+      "Hidrogen": 2
+    },
+    "TotalPrice": 2250.0
   }
 ]

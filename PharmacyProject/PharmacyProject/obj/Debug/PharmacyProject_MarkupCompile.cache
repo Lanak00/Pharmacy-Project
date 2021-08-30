@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Lana\Desktop\PharmacyProject\PharmacyProject\PharmacyProject\obj\Debug\
+C:\Users\Lana\Desktop\SIMS Project\PharmacyProject\PharmacyProject\obj\Debug\
 PharmacyProject
 none
 false
 DEBUG;TRACE
-C:\Users\Lana\Desktop\PharmacyProject\PharmacyProject\PharmacyProject\App.xaml
+C:\Users\Lana\Desktop\SIMS Project\PharmacyProject\PharmacyProject\App.xaml
 2584774888
 
 49-1251817224
-141550170246
+141442939592
 MainWindow.xaml;LogInView.xaml;Veiws\AddMedicineView.xaml;Veiws\AddPatientView.xaml;Veiws\DeletedMedicineListView.xaml;Veiws\DoctorsReportView.xaml;Veiws\DoctorsReviewView.xaml;Veiws\MedicineAmountInputView.xaml;Veiws\MedicinesToApproveListView.xaml;Veiws\PatientMedicineListView.xaml;Veiws\PharmacistMedicineListView.xaml;Veiws\ReceiptListView.xaml;Veiws\RejectedMedicineListView.xaml;Veiws\ShoppingChartView.xaml;Veiws\SortPatientsView.xaml;Veiws\UsersMainView.xaml;Veiws\IngridientListView.xaml;Veiws\MedicineListView.xaml;Veiws\PatientListView.xaml;Veiws\SearchIngridientsByMedicinesView.xaml;Veiws\SearchIngridientsViewxaml.xaml;Veiws\SearchMedicinesByIngridientsView.xaml;Veiws\SearchMedicinesView.xaml;Veiws\SortIngridientsView.xaml;Veiws\SortMedicinesView.xaml;
 
 False

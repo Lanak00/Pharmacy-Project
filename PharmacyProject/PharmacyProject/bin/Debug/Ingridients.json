@@ -4,20 +4,20 @@
     "Description": "Mineral"
   },
   {
-    "Name": "H20",
-    "Description": "Voda"
+    "Name": "Alkilglicerol",
+    "Description": "Štiti od infekcija, prehlade i gripa"
   },
   {
-    "Name": "Cina",
-    "Description": "smiruje grčeve u stomaku različitog porekla"
+    "Name": "Vitamin C",
+    "Description": "Smanjuje umor i iscrpljenost"
   },
   {
-    "Name": "Calcium",
-    "Description": "pomaže resorpciju kalcijuma iz hrane i bolje iskorišćenje"
+    "Name": "Kalcijum",
+    "Description": "Pomaže resorpciju kalcijuma iz hrane i bolje iskorišćenje"
   },
   {
-    "Name": "Chamomilla",
-    "Description": "dejstvo na grčeve izazvane gasovima"
+    "Name": "Hondroitin sulfat",
+    "Description": "Usporava i smanjuje razvoj degenerativnih promena koje nastaju u toku procesa starenja"
   },
   {
     "Name": "Colocynthis",
@@ -28,23 +28,23 @@
     "Description": "za učvršćenje noćnog sna zdrave dece koja su dnevno aktivna."
   },
   {
-    "Name": "Croton tiglium",
-    "Description": "smiruje nekontrolisane napade dijareje koja je vodena"
+    "Name": "Ricinusovo ulje",
+    "Description": "Umirujuce dejstvo."
   },
   {
-    "Name": "Ferrum phosphoricum",
-    "Description": "Odličan lek kod početka upalnih procesa na sluznici"
+    "Name": "Melatonin",
+    "Description": "Odličan lek kod početka upalnih procesa na sluznici."
   },
   {
     "Name": "Okoubaka",
-    "Description": "Biljni lek za prevenciju putničke dijareje"
+    "Description": "Biljni lek za prevenciju gripa."
   },
   {
-    "Name": "Stafisagria",
-    "Description": "Utiče na popravljanje ponašanja dece koja su besna"
+    "Name": "Linalol",
+    "Description": "Utiče na ponašanje dece koja su besna."
   },
   {
     "Name": "Valerijana",
-    "Description": "umiruje decu koja ne mogu da se zaustave i stalno su u pokretu"
+    "Description": "Regulise krvni pritisak."
   }
 ]
