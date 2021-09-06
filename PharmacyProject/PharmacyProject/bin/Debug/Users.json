@@ -176,6 +176,18 @@
           "Hidrogen": 2
         },
         "TotalPrice": 2250.0
+      },
+      {
+        "Id": "36",
+        "Pharmacist": "Marko Markovic",
+        "DateTime": "9/6/2021 5:11:10 PM",
+        "Items": {
+          "Dietfarm": 3,
+          "Alkohol": 5,
+          "Hartikol": 2,
+          "Imunocink": 1
+        },
+        "TotalPrice": 2081.0
       }
     ]
   },
@@ -512,6 +524,17 @@
     "FirstName": "Ivan",
     "LastName": "Ivanovic",
     "PhoneNumber": "0621352465",
+    "Role": "PATIENT",
+    "ShoppingChart": null,
+    "Receipts": null
+  },
+  {
+    "Id": "2401997120563",
+    "Email": "ana123@gmail.com",
+    "Password": "pass123456",
+    "FirstName": "Aaana",
+    "LastName": "Aaanic",
+    "PhoneNumber": "06415203254",
     "Role": "PATIENT",
     "ShoppingChart": null,
     "Receipts": null

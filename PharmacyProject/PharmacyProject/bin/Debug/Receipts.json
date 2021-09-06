@@ -328,5 +328,17 @@
       "Hidrogen": 2
     },
     "TotalPrice": 2250.0
+  },
+  {
+    "Id": "36",
+    "Pharmacist": "Marko Markovic",
+    "DateTime": "9/6/2021 5:11:10 PM",
+    "Items": {
+      "Dietfarm": 3,
+      "Alkohol": 5,
+      "Hartikol": 2,
+      "Imunocink": 1
+    },
+    "TotalPrice": 2081.0
   }
 ]

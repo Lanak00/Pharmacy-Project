@@ -277,10 +277,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="JSONFiles\Doctors.json" />
-    <None Include="JSONFiles\Ingridients.json" />
-    <None Include="JSONFiles\Medicines.json" />
-    <None Include="JSONFiles\Receipts.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

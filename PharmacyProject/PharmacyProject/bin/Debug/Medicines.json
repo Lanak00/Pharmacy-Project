@@ -16,7 +16,7 @@
     "Name": "Imunocink",
     "Manufacturer": "Pharmalife",
     "Price": 500.0,
-    "Ammount": 114,
+    "Ammount": 113,
     "DoctorsReport": "",
     "Ingridients": {},
     "IsAccepted": true,
@@ -45,14 +45,14 @@
     "Ingridients": {},
     "IsAccepted": true,
     "IsRejected": false,
-    "IsDeleted": false
+    "IsDeleted": true
   },
   {
     "Id": "25",
     "Name": "Dietfarm",
     "Manufacturer": "Pharmalife",
     "Price": 23.0,
-    "Ammount": 87,
+    "Ammount": 84,
     "DoctorsReport": "",
     "Ingridients": {
       "Melatonin": 0.3,
@@ -98,7 +98,7 @@
     "Name": "Hartikol",
     "Manufacturer": "Pharmalife",
     "Price": 256.0,
-    "Ammount": 8,
+    "Ammount": 6,
     "DoctorsReport": "",
     "Ingridients": {
       "Ricinusovo ulje": 2.5,
@@ -128,7 +128,7 @@
     "Name": "Alkohol",
     "Manufacturer": "Anafarm",
     "Price": 200.0,
-    "Ammount": 13,
+    "Ammount": 8,
     "DoctorsReport": "",
     "Ingridients": {
       "Alkilglicerol": 3.3,
@@ -183,7 +183,7 @@
       "Okoubaka": 3.5,
       "Ricinusovo ulje": 2.0
     },
-    "IsAccepted": false,
+    "IsAccepted": true,
     "IsRejected": false,
     "IsDeleted": false
   },
@@ -212,7 +212,6 @@
     "DoctorsReport": "",
     "Ingridients": {
       "Alkilglicerol": 2.0,
-      "Chamomilla": 3.2,
       "Kalcijum": 1.0
     },
     "IsAccepted": true,
@@ -256,14 +255,14 @@
     "Manufacturer": "Hemofarm",
     "Price": 200.0,
     "Ammount": 100,
-    "DoctorsReport": "Invalid Medicine Id",
+    "DoctorsReport": "Rejected for idk",
     "Ingridients": {
       "Alkilglicerol": 2.3,
       "Melatonin": 1.2,
       "Valerijana": 3.5
     },
     "IsAccepted": false,
-    "IsRejected": false,
+    "IsRejected": true,
     "IsDeleted": false
   },
   {
@@ -279,8 +278,8 @@
       "Kalcijum": 3.2
     },
     "IsAccepted": false,
-    "IsRejected": true,
-    "IsDeleted": true
+    "IsRejected": false,
+    "IsDeleted": false
   },
   {
     "Id": "1123",
@@ -343,7 +342,7 @@
     },
     "IsAccepted": false,
     "IsRejected": true,
-    "IsDeleted": false
+    "IsDeleted": true
   },
   {
     "Id": "231554",
@@ -358,6 +357,22 @@
       "Alkilglicerol": 3.0
     },
     "IsAccepted": true,
+    "IsRejected": false,
+    "IsDeleted": false
+  },
+  {
+    "Id": "456852",
+    "Name": "Panklav",
+    "Manufacturer": "Hemofarm",
+    "Price": 250.0,
+    "Ammount": 100,
+    "DoctorsReport": "",
+    "Ingridients": {
+      "Alkilglicerol": 1.0,
+      "Vitamin C": 0.5,
+      "Linalol": 0.8
+    },
+    "IsAccepted": false,
     "IsRejected": false,
     "IsDeleted": false
   }
